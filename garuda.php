@@ -10,8 +10,8 @@ if (!file_exists('token')) {
 
 include ("curl.php");
 echo "\n";
-echo "\e[94m CIYEEE AKHIR NYA SAMPE SINI JUGA!!\n";
-echo "\e[91m HAYOOO MAU NGAPAIN BUKA SCRIPT INI\n";
+echo "\e[94m CIYEEE AKHIR NYA SAMPE SINI JUGA!!    \n";
+echo "\e[91m HAYOOO MAU NGAPAIN BUKA SCRIPT INI? \n";
 echo "\e[93m MAU NGECROOT + CROOT CROOT CROOT YAA!!\n";
 echo "\n";
 echo "\e[96m[?] Masukkan kemana coba? : ";

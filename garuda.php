@@ -10,7 +10,7 @@ if (!file_exists('token')) {
 
 include ("curl.php");
 echo "\n";
-echo "\e[94m    JANGAN BANYAK BACOD NURUT AJA           \n";
+echo "\e[94m         JANGAN BANYAK BACOD NURUT AJA           \n";
 echo "\e[91m FORMAT NOMOR HP : INDONESIA '62***' , US='1***'\n";
 echo "\e[93m SCRIPT GOJEK AUTO CROOT + CROOT CROOT CROOT\n";
 echo "\n";

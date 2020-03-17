@@ -10,11 +10,11 @@ if (!file_exists('token')) {
 
 include ("curl.php");
 echo "\n";
-echo "\e[94m         JANGAN BANYAK BACOD NURUT AJA           \n";
-echo "\e[91m FORMAT NOMOR HP : INDONESIA '62***' , US='1***'\n";
-echo "\e[93m SCRIPT GOJEK AUTO CROOT + CROOT CROOT CROOT\n";
+echo "\e[94m CIYEEE AKHIR NYA SAMPE SINI JUGA!!\n";
+echo "\e[91m HAYOOO MAU NGAPAIN BUKA SCRIPT INI\n";
+echo "\e[93m MAU NGECROOT + CROOT CROOT CROOT YAA!!\n";
 echo "\n";
-echo "\e[96m[?] Masukkan Nomor HP Anda (62/1) : ";
+echo "\e[96m[?] Masukkan kemana coba? : ";
 $nope = trim(fgets(STDIN));
 $register = register($nope);
 if ($register == false)
@@ -24,7 +24,7 @@ if ($register == false)
   else
     {
     otp:
-    echo "\e[96m[!] Masukkan Kode Verifikasi (OTP) : ";
+    echo "\e[96m[!] nomor togel hari ini adalah: ";
     $otp = trim(fgets(STDIN));
     $verif = verif($otp, $register);
     if ($verif == false)

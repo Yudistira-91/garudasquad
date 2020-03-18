@@ -1,6 +1,3 @@
-115 lines (109 sloc)  3.37 KB
-RawBlameHistory
-  
 <?php
 
 error_reporting(0);
